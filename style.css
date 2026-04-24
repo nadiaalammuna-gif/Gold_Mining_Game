@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+}
+.cell{
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+
+}
+.done{
+background-color: blueviolet;
+width: 25px;
+height: 25px;
+}
+.gold{
+    background-color: goldenrod;
+width: 25px;
+height: 25px;
+}
